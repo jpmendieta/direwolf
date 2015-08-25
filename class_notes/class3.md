@@ -1,4 +1,4 @@
-*Class 3 Notes
+# Class 3 Notes
 
 * Pre-class notes
   * pull updates from DAT8 repo before class starts
