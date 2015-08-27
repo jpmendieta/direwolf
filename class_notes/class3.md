@@ -21,3 +21,8 @@
   * better way is to get an approximate by counting the lines that came back from the grep that had the word dictionary `grep -ir ‘dictionary’ . |wc -l`
   * `grep -ir ‘dictionary’ . | tr ‘ ‘ ‘\n’ | grep -i ‘dictionary’`
   * `grep -ir ‘dictionary’ . | tr ‘ ‘ ‘\n’ | grep -i ‘dictionary’ | wc -l`
+* Python exercise
+  * create a dictionary from 2 arrays
+    1. zip creates list of tuples
+    2. dict converts the list into a dictionary
+`dict(zip(airlines, incidents))`
